@@ -12,10 +12,10 @@ This was a project I made to show how you can recreate the vision capabilities o
 3. In the Signing and Capabilities section in the main project change the signing team to your own developer account.
 
 4. Either run the flask_server.py file to host the API requests with OpenAI or host the python file on a service such as Railway or Replit.
-5. Change the URL string on line 200 of the ContentView.swift file to the server link of the flask server. In my case:
+5. Change the URL string on line 200 of the ContentView.swift file to the server link of the python flask server. In my case:
 ```swift
 200: let url = URL(string: "https://chatgpt-vision-replica-production.up.railway.app/process")!
 ```
 6. Run the app in a simulator or your iOS device and test.
 
-### I might eventually change the flash server to be locally Swift but that will happen later on.
+### I might eventually change the python flask server to be locally Swift but that will happen later on.
